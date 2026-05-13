@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>partie2</title>
+</head> 
+<body>
+    
+    <table border="=1">
+        <tr>
+            <th>Nom </th>
+            <th>Prénom </th>
+            <th>ville</th>
+
+        </tr>
+            <tr>
+                <td>Ali</td>
+                <td>trabelsi</td>
+                <td>tunis</td>  
+            </tr>
+            <tr>
+                <td>Asma</td>
+                <td>Ben Salah</td>
+                <td>Sousse</td>
+            </tr>
+            <caption>table de personnes</caption>  
+                 
+    </table>
+
+
+    <h4>fusion de rowspan </h4>
+     
+    <table border="=1">
+        <tr>
+            <th>Nom </th>
+            <th>Age </th>
+        </tr>
+        <tr>
+            <td rowspan="2">Ali </td>
+            <td>20 </td>        
+        </tr>
+        <tr>
+            <td>30 </td>
+        </tr>
+        
+
+    </table>
+    <h4>fusion de colspan </h4>
+    <table border="=1">
+        <tr>
+            <th>Nom </th>
+           <th colspan="2">informations     </th>
+
+        </tr>
+        <tr>
+            <td>Ali </td>
+            <td>trabelsi </td>        
+            <td>tunis </td>
+        </tr>
+       
+        <tr>
+            <td>Asma </td>
+            <td>Ben Salah </td>        
+            <td>Sousse </td>
+        </tr>
+    </table>
+
+    <h2> formulaire  avance </h2>
+    <form>
+        <!--informations personnelles-->
+        <fieldset>
+            <legend>Informations     personnelles</legend>
+              
+        <!-- Text input -->
+         <label>Nom:</label>
+            <input type="text" name="nom" placeholder="Tapez votre nom"><br><br>
+        <!-- Email input -->    
+        <label>Email:</label>
+            <input type="email" name="email" placeholder="example@gmail.com"><br><br>
+        <!-- Password input -->
+        <label>Password:</label>
+            <input type="password" name="password" placeholder="Tapez votre mot de passe"><br><br>
+        <!-- Number input -->
+        <label>Age:</label>
+            <input type="number" name="age" placeholder="Tapez votre âge"><br><br>  
+        <!-- Date input -->
+        <label>Date de naissance:</label>
+            <input type="date" name="dob"><br><br> 
+            </fieldset>  
+            <fieldset>
+            <legend>Informations supplémentaires</legend>
+            
+        <!-- message input -->
+        <label>Message:</label><br>
+            <textarea name="message" placeholder="Tapez votre message" rows="5" cols="40"></textarea><br>
+        <!-- range input -->
+        <label>Niveau de satisfaction :</label>
+            <input type="range"  min="0" max="100"><br><br>
+        <!-- color input -->
+        <label>Choisissez votre couleur favorite     :</label>
+            <input type="color" ><br><br>
+            </fieldset>
+        <!-- submit button -->
+        <input type="submit" value="Envoyer"><br><br>
+        <!-- reset button -->
+        <input type="reset" value="Réinitialiser"><br><br>
+        <!-- button -->
+        <input type="button" value="Cliquez ici" ><br><br>
+
+    </form>
+    <!-- les balises div et span -->
+    <h2> les balises div et span </h2>
+    <div>Bloc1</div>
+    <div>Bloc2</div>
+    <div>Bloc3</div>    
+    <span>Bloc1     </span>
+    <span>Bloc2     </span> 
+    <span>Bloc3     </span>
+
+    <h4> exemple avec span</h4>
+    <p>Bonjour <span>Asma</span>Comment ça va ?</p>
+    <p>Bonjour <div>Ali</div>Comment ça va ?</p>
+    <!--Balises d'abreviation-->
+    <p>Le <abbr title="Hyper Text Markup Language">HTML</abbr> est un langage de balisage utilisé pour créer des pages web.</p>
+    <!--balises d'adresse   -->
+    <address>
+        Payes: Tunisie <br>
+        ville: Tunis <br>
+        Rue : 123 rue de la paix <br>
+        </address>  
+        <!--fbalise figure  -->
+        <figure>
+            <img src="lp1.jpg" alt="produit1" width="300" height="200">
+            <figcaption>Image de produit</figcaption>
+
+        </figure>  
+        <!--balises de menu -->
+        <menu>
+            <li>Accueil</li>
+            <li>Produits</li>
+            <li>Contact</li>
+        </menu>
+        <!--balise details-->
+        <details>
+            <summary>Plus d'informations</summary>
+            <p>Voici des informations supplémentaires sur le produit.</p>
+        </details>
+        <!-- balise iframe sert a integrer dans contenus externe-->
+         <iframe src="https://www.wikipedia.org/" width="600" height="400">
+
+         </iframe><br>
+         <div> 
+         <!--balise object  -->
+         <object data="lp1.jpg" type="image/jpeg" width="300" height="200">
+            </div>
+         <div>
+
+         
+            <video  width="300" height="200" controls>
+            <source src="video.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+            </video>
+            </div>
+        <!--balise search  -->
+        <search>
+            <label>Rechercher...</label>
+            <input type="search" name="search" placeholder="Tapez votre recherche">
+            <button type="submit">Rechercher</button>
+        </search>
+
+            
+
+</body>
+</html> 

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"></html> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche d'etudiant interactive </title>
+</head>
+<body>  
+    <nav>
+      <menu>
+        <li><a href="">Informations personnelles</a></li>
+        <li><a href="">Resultats</a></li>
+        <li><a href="">Medias</a></li>
+      </menu>
+    </nav>   
+    <form>
+        <fieldset>
+            <legend>Informations personnelles</legend>
+            <!-- text input -->
+            <label>Nom:</label>
+                <input type="text" name="nom" placeholder="Saisir votre nom"><br><br>
+           <label>Email:</label>
+                <input type="email" name="email" placeholder="exemple@gmail.com"><br><br>
+            <label>Message:</label>
+            <textarea name="message" placeholder="Tapez votre message" rows="5" cols="40"></textarea><br><br>
+            <label>Spécialité:</label>
+            <select name="specialite">
+                <option value="front_end">Front-End</option>
+                <option value="back_end">Back-End</option>
+                <option value="full_stack">Full-Stack</option>
+            </select>
+            <br><br>
+           
+            <!--progression du cour-->
+            <label>Progression du cours:</label>
+            <progress value="70" max="100"></progress><br><br>  
+            <!--niveau de motivation -->
+            <label>Niveau de motivation:</label>
+            <meter value="0.8" min="0" max="1"></meter><br><br>
+
+        </fieldset>
+        <!--tableau de matiers et notes surligner la meilleure note avec<mark> ajouter la moyenne en pied de tableau-->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Matière</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td><mark>18</mark></td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>17</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Moyenne</td>
+                        <td>16.67</td>
+                    </tr>
+            </table>
+            <!--inclure image de profil-video-audio-pdf-iframe vers un site -deetails caches-->
+            <figure> 
+                <img src="lp1.jpg" alt="Image de profil" width="200">
+                <figcaption>Photo de profil de l'étudiant</figcaption>
+            </figure><br><br>
+            <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos.  
+            </video><br><br>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Votre navigateur ne supporte pas la lecture de l'audio. 
+            </audio><br><br>
+            <a href="document.pdf">Télécharger le PDF</a><br><br>
+            <iframe src="https://www.wikipedia.org/" width="600" height="400"></iframe><br><br>
+            <details>   
+                <summary>Plus d'informations</summary>
+                <p>Voici des informations supplémentaires sur l'étudiant.</p>       
+            </details>
+            <!--ajouter un menu simple avec trois element-->
+            <nav>   
+                <menu>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">À propos</a></li>
+                </menu>
+
+
+                
+
+        
+    </form> 
+</body> 
+</html>      

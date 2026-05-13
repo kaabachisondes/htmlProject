@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+<title>Mon cours</title>
+    </head>
+    <body>
+<table border="1">
+    <tr>
+        <th>Nom</th>
+        <th colspan="2">Informations</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Ali</td>
+        <td>Age</td>
+       <td>25 ans</td> 
+    </tr>
+    <tr>
+        <td>Ville</td>
+        <td>Tunis</td>
+    </tr>
+    <tr>
+        <td>Sarah</td>
+        <td>30 ans</td>
+        <td>Sousse</td>
+    </tr>
+    <caption>Tableau de personnes</caption>
+</table>
+    </body>
+</html>
